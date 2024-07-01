@@ -5,18 +5,19 @@ numérico, o retorno será o número inverso. Por exemplo, se for fornecido 1, o
 de entrada não for de nenhum dos tipo acima, retorne "booleano ou número esperados, mas o parâmetro é do
 tipo ...".
 */
-function invert(a){
-    
-    if(typeof a == `boolean`){
-        console.log(!a)
+
+function invert (a){
+    if(typeof a == "boolean"){
+        console.log(!a) 
     }
-    else if(typeof a ==`number`){
-        console.log(a*-1)
+    else if(typeof a == "number"){
+        console.log(a*-1) 
     }
     else{
-        console.log(`booleano ou número esperados, mas o parâmetro é do tipo String`)
+        console.log("booleano ou número esperados, mas o parâmetro é do tipo string") 
     }
-    
 }
 
-invert(`o`)
+let a = invert("o")
+
+console.log(a)

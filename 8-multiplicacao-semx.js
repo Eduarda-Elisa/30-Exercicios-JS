@@ -7,16 +7,15 @@ multiplicar(0, 7) // retornará 0
 
 */
 
-function multiplica(num1,mult){
-    let numreplica = 0
+function multiplica (num1,num2){
+    let soma = 0
 
-    for(let i=0;i<mult;i++){
-        numreplica=numreplica+num1
+    for(let i = 0; i < num2; i++){
+        soma = soma+num1
+       
     }
-
-    console.log(numreplica)
-
+     console.log(soma)
 }
 
-multiplica(2,3)
+multiplica(0,7)
 

@@ -6,9 +6,11 @@ Exemplos:
 calcularSalario(150, 40.5) // retornará "Salário igual a R$ 6075"
 */
 
-function calcularsalario(horas, salarioHora){
-    let calculo = horas * salarioHora
-    console.log(`Salario igual a R$ ${calculo},`)
+function horatrab (h,v){
+    let calculo= h*v
+    let total= `Salário igual a R$ `+calculo
+    
+    console.log(total)
 }
 
-calcularsalario(40,30)
+horatrab(150,40.5)

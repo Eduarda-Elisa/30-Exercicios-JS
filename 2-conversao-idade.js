@@ -7,12 +7,9 @@ converterIdadeEmAnosParaDias(25) // retornará 9125
 converterIdadeEmAnosParaDias(70) // retornará 25550
 */
 
-function anosEmDias(idade){
-    let bissexto = idade / 4
-    let dias = idade * 365 
-    let resultadoFinal = bissexto+dias
-    console.log('A idade em dias, considerando os anos Bissexto e:' + resultadoFinal)
-
+function convert (idade){
+    let calculo =365*idade
+    console.log(calculo)
 }
 
-anosEmDias(30)
+convert(5) 

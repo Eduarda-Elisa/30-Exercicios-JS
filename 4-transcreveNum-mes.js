@@ -6,14 +6,14 @@ nomeDoMes(1) // retornará "janeiro"
 nomeDoMes(4) // retornará "abril"
 */
 
-function numeroEmMes(numero) {
+function calender(num) {
 
-    switch (numero) {
+    switch (num) {
         case 1:
-            console.log('Janeiro')
+            console.log(`Janeiro`)
             break
         case 2:
-            console.log('fevereiro')
+            console.log('Fevereiro')
             break
         case 3:
             console.log('Março')
@@ -45,12 +45,10 @@ function numeroEmMes(numero) {
         case 12:
             console.log('Dezembro')
             break
-
         default:
-            console.log('Numero Invalido, digite de 1-12.')
+            console.log('Opção invalida, digite de 1 a 12')
     }
-
 }
 
-numeroEmMes(13)
+calender(9)
 

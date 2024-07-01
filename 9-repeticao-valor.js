@@ -7,14 +7,16 @@ repetir(7, 3) // retornará [7, 7, 7]
 
 */
 
-function repeticao(rep, repx) {
-    let loop = []
-
-    for (let i = 0; i < repx; i++) {
-        loop.push(rep)
+function repet (a,b){
+    let arr = []
+    
+    for(let i = 0; i < b; i++){
+        arr.push(a)
     }
-
-    console.log(loop)
+    console.log(arr)
 }
 
-repeticao('ok', 3)
+repet('lucas',12)
+
+
+

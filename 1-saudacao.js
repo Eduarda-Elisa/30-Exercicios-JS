@@ -7,8 +7,11 @@ cumprimentar("Leonardo") // retornará "Olá, Leonardo!"
 cumprimentar("Maria") // retornará "Olá, Maria!"
 */
 
-function saudacao(nome){
-    console.log(`Ola ${nome}!`)   
+function saudacao(a){
+    let comp = 'ola'
+    let sinal = '!'
+    console.log( comp + ' ' + a + ' ' + sinal)
+    
 }
 
-saudacao('Julia')
+saudacao('julia')

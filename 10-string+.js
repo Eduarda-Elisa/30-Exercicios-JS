@@ -6,12 +6,15 @@ simboloMais(2) // retornará "++"
 simboloMais(4) // retornará "++++"
 */
 
-function contagem (num) {
-    let ret = ``
-    for(let i=0;i<num;i++){
-        ret=ret+"+"
+function repet (a){
+    let result = ""
+
+    for(let i =0; i < a; i++){
+        result= result+ "+"
     }
-    console.log(ret)
+    
+
+    console.log(result)
 }
 
-contagem(2)
+repet(3)

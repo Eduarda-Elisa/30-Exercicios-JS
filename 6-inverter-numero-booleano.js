@@ -1,7 +1,7 @@
 /*
 Escreva uma função que receba um valor booleano ou numérico. Se o parâmetro fornecido for booleano, o
 retorno da função deverá ser o inverso. Por exemplo, se a entrada for false, retornará true. Se o parâmetro for
-numérico, o retorno será o número inverso. Por exemplo, se for fornecido 1, o retorno será 1. Se o parâmetro
+numérico, o retorno será o número inverso. Por exemplo, se for fornecido 1, o retorno será -1. Se o parâmetro
 de entrada não for de nenhum dos tipo acima, retorne "booleano ou número esperados, mas o parâmetro é do
 tipo ...".
 Exemplos:
@@ -11,17 +11,16 @@ inverso(-2000) // retornará 2000
 inverso("programação") // retornará "booleano ou números esperado, mas o parâmetro é do tipo string"
 */
 
-function inverter(param){
-    if(typeof param == `boolean`){
-        console.log(!param)
+function invert (num){
+    if(typeof num == 'boolean'){
+        console.log(!num)
     }
-    else if(typeof param == `number`){
-        console.log(-1*param)
+    else if(typeof num == "number"){
+        console.log(num*-1)
     }
     else{
-        console.log(`O valor digitado e invalido, digite numeros, ou booleano.`)
+        console.log("booleano ou números esperado, mas o parâmetro é do tipo string")
     }
-
 }
 
-inverter(`1`)
+invert("ooo")

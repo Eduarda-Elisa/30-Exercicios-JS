@@ -2,17 +2,17 @@
 Crie uma função que receba dois números e retorne se o primeiro é maior ou igual ao segundo.
 Exemplos:
 maiorOuIgual(0, 0) // retornará true
-maiorOuIgual(0, "0") // retornará false
-maiorOuIgual(5, 1) // retornará false
+maiorOuIgual(0, "0") // retornará true
+maiorOuIgual(5, 1) // retornará true
 */
 
-function igualoumaior(num1, num2){
-    if ( num1 >= num2 ){
+function comparativo (num1,num2){
+    if( num1 >= num2 ) {
         console.log(true)
     }
-    else{
+    else {
         console.log(false)
     }
 }
 
-igualoumaior(0,5)
+comparativo(5,1)
